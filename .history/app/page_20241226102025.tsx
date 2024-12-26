@@ -13,11 +13,11 @@ export default function Page() {
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to JobPortal.</strong>{' '}
+            <strong>Welcome to JobPortal.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
-            Dont worry about the job
+              Next.js Learn Course
             </a>
-            ,  we will help you to find the best job
+            , brought to you by Vercel.
           </p>
           <Link
             href="/login"
