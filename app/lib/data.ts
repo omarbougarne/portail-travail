@@ -12,8 +12,7 @@ import { formatCurrency } from './utils';
 export async function fetchRevenue() {
   try {
     
-
-    // console.log('Fetching revenue data...');
+    // console.log('Fetching revenue data...');hhhhh
     // await new Promise((resolve) => setTimeout(resolve, 3000));
 
     const data = await sql<Revenue>`SELECT * FROM revenue`;
